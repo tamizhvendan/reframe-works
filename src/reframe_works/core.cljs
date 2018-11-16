@@ -1,6 +1,6 @@
 (ns reframe-works.core
   (:require [reagent.core :as r]
-            [reframe-works.react-lib :refer [home]]
+            [reframe-works.react-lib :refer [home hero-container]]
             [reframe-works.routing :refer [app-routes current-page]]))
 
 (defn start []
